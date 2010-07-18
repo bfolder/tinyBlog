@@ -1,0 +1,1 @@
+$(document).ready(function(){jQuery("#commentform").validate({rules:{name:"required",message:"required",email:{required:false,email:true}},messages:{name:"Bitte Namen angeben.",email:"Bitte korrekte eMail Adresse angeben.",message:"Kommentar eingeben."}})});
